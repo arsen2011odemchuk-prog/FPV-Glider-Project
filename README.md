@@ -35,6 +35,47 @@ and switches to emergency protocols if issues such as signal loss or low battery
 are detected. The diagram represents conceptual system behavior rather than
 exact hardware-level implementation.
 
+Component Placement & Assembly Plan
+
+The aircraft is based on a 120cm EPP glider airframe. Components are placed to maintain balance and easy access.
+
+Fuselage (Front to Back)
+- **FPV Camera**: Mounted in the nose using hot glue or foam-safe adhesive. The camera is angled slightly upward (~10°) for level flight visibility.
+- **Battery (3S LiPo)**: Placed inside the nose section on a simple foam or plywood tray. Battery position is adjustable to achieve correct center of gravity.
+- **Flight Controller (F4 V3 INAV)**: Mounted in the center of the fuselage using double-sided foam tape to reduce vibration.
+- **GPS Module (Beitian M8N)**: Mounted on top of the fuselage or tail section using foam tape, away from electronics to reduce interference.
+
+Wings
+- **Servos (2x 12g metal gear)**: Installed into servo pockets cut into the wings. Secured using hot glue or foam-safe glue.
+- **Control Rods**: Steel pushrods connect servos to control horns on ailerons and elevator.
+
+Tail
+- **Elevator & Rudder Horns**: Attached using screws or glue depending on foam thickness.
+
+Motor & ESC
+- **Motor (2204 1400KV)**: Mounted to a small plywood plate glued into the nose.
+- **ESC (30A)**: Placed inside the fuselage behind the motor, secured with tape or zip ties for airflow.
+
+Wiring Overview
+
+- The **battery** connects to the ESC using XT30 connectors.
+- The **ESC** powers the motor and provides 5V to the flight controller through the BEC.
+- **Servos** plug directly into the flight controller servo outputs.
+- The **radio receiver (FS-iA6)** connects to the flight controller using iBUS.
+- The **GPS module** connects to the flight controller via UART (TX/RX).
+- The **FPV camera** is powered from the flight controller and sends video to the FPV receiver.
+
+All wiring is routed internally through the fuselage and wing root openings to keep cables protected.
+<img width="663" height="674" alt="image" src="https://github.com/user-attachments/assets/2e58d396-c65e-42d7-8e16-20f541f3390e" />
+
+This diagram shows the complete wiring and signal flow of the long-range FPV glider.
+The battery powers the ESC, which drives the motor and provides regulated 5V BEC
+power to the INAV F4 flight controller. The flight controller receives control input
+from the radio receiver and navigation data from the GPS module, and outputs control
+signals to the servos for stabilized flight. The FPV camera provides live video for
+monitoring during flight.
+
+
 Bill of Materials (BOM)
 
 This BOM lists the planned components for the build. Some parts may be substituted with equivalent alternatives depending on availability.
