@@ -26,6 +26,32 @@ Visuals
 
 Note: This is a digital 3D model of the FPV glider. Functional cut-outs for battery, camera, and servo wires will be added in the final physical build.
 
+## Structural Reinforcement and Control Design
+The aircraft is designed as a foam-based FPV glider, where most structural reinforcement is intentionally internal and therefore not fully visible in the external 3D mock-up. This reflects the real construction method used in foam and EPP gliders.
+Internal Reinforcement
+Primary structural strength is provided by internal wing and fuselage reinforcement, such as:
+A longitudinal wing spar running through the wing at the point of highest bending load
+Internal fuselage stiffening provided by foam thickness and localized reinforcement near the wing mount and electronics bay
+Because these reinforcements are embedded inside the foam, they are not externally visible in the model. The CAD representation focuses on structural logic and placement, rather than exposing internal elements that would not be visible on the finished aircraft.
+<img width="896" height="637" alt="image" src="https://github.com/user-attachments/assets/f1ca4dc4-0e06-4353-8a53-5ba57957d7ff" />
+
+## Center of Gravity (CG)
+A center of gravity reference is defined relative to the wing chord, located approximately at 25–35% of the wing chord from the leading edge, which is typical for stable glider and FPV aircraft configurations.
+The CG position is determined by:
+Battery placement (primary mass)
+Flight controller and electronics location
+Motor and propulsion system at the nose
+The electronics layout shown in the model reflects deliberate mass distribution to ensure the aircraft balances correctly at the defined CG point.
+<img width="740" height="345" alt="image" src="https://github.com/user-attachments/assets/02f1325e-a54d-4f8b-9451-4ff12ad4cad1" />
+
+<img width="733" height="269" alt="image" src="https://github.com/user-attachments/assets/cfba7c4b-1938-481e-a2b7-a6205f14cd84" />
+
+<img width="866" height="571" alt="image" src="https://github.com/user-attachments/assets/abcb256c-546b-4ad3-8dd0-ce3dfe685159" />
+
+
+
+
+
 
 <img width="323" height="661" alt="image" src="https://github.com/user-attachments/assets/757803d9-874a-4100-92a8-b09f419be70f" />
 
