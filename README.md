@@ -53,7 +53,8 @@ The electronics layout shown in the model reflects deliberate mass distribution 
 
 
 
-<img width="323" height="661" alt="image" src="https://github.com/user-attachments/assets/757803d9-874a-4100-92a8-b09f419be70f" />
+<<img width="836" height="471" alt="image" src="https://github.com/user-attachments/assets/5135d8f5-1f24-471d-81a0-75f3b94a3a7a" />
+ />
 
 This flowchart shows the logic of the flight controller.
 The system checks aircraft status before takeoff, monitors flight conditions,
@@ -92,7 +93,8 @@ Wiring Overview
 - The **FPV camera** is powered from the flight controller and sends video to the FPV receiver.
 
 All wiring is routed internally through the fuselage and wing root openings to keep cables protected.
-<img width="663" height="674" alt="image" src="https://github.com/user-attachments/assets/2e58d396-c65e-42d7-8e16-20f541f3390e" />
+<<img width="713" height="640" alt="image" src="https://github.com/user-attachments/assets/722a9b1c-577a-4be6-8803-9ea9f919b4ed" />
+/>
 
 This diagram shows the complete wiring and signal flow of the long-range FPV glider.
 The battery powers the ESC, which drives the motor and provides regulated 5V BEC
