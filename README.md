@@ -132,4 +132,15 @@ This BOM lists the planned components for the build. Some parts may be substitut
 | **Total** |  |  | **£282.15** |  |
 
 
+**Airframe Availability Update**
+**Date:** 8 March 2026
+
+As of **8 March 2026**, the original foam glider airframe used for this project is no longer available for purchase from the previously listed source. The system is designed specifically around a glider-style airframe, so it cannot be adapted to a different type of body (for example, a drone frame or a standard RC airplane fuselage). A glider platform is required for the project.
+
+To keep the project buildable, several alternative foam gliders have been listed in this README. These alternatives are not exact matches to the original airframe and may differ in internal space and overall dimensions.
+
+Most currently available alternatives are **smaller than the original design**, which means the internal space may be tighter and some adjustments to component placement might be required depending on the specific glider used. While these alternatives are not ideal due to their smaller size, they still provide a workable platform and are currently the closest available options for building and testing the project. [amazon](https://www.amazon.co.uk/Garneck-Airplane-Throwing-Material-Activity/dp/B0DXZ3LCSC/ref=sr_1_24_sspa?dib=eyJ2IjoiMSJ9.SYmsii3TBNe-w2hhtsPWFfTldLd6M3iIKr3ncLoA18tQrSZbvDgHBmf-qTFnU7effLAE_3ndqa6ByIhVkuvyUu0oJ1drE-Kls8CzZjmL2DtwbdSoRFNjg2G8SX0v-vbIiCMcFd3JLfRbxer8iWzFNFmZC4YioeCBorVdefZEg5tswJnZ6dea8AieUjdOWbSt1SQvJWU3B4o-44cb4-PinJ_ouDLY1oWKZjC9aIOTIUKQ9nELw5s_0ofVa6Ap5NEumZvK7Bb7gLCA20etoF6EcjXKfc2YcY1_m3aKj-_wQ-s.0-lJN_P-OPF45l8S5tvpWkFV05sdlCDQjF5HS-JS-r0&dib_tag=se&keywords=giant+foam+glider+plane&qid=1773000650&sr=8-24-spons&aref=4hJXS0NEM6&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1)
+
+
+
 
