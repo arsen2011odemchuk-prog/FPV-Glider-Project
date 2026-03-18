@@ -47,6 +47,15 @@ The electronics layout shown in the model reflects deliberate mass distribution 
 <img width="733" height="269" alt="image" src="https://github.com/user-attachments/assets/cfba7c4b-1938-481e-a2b7-a6205f14cd84" />
 
 <img width="866" height="571" alt="image" src="https://github.com/user-attachments/assets/abcb256c-546b-4ad3-8dd0-ce3dfe685159" />
+<img width="781" height="572" alt="image" src="https://github.com/user-attachments/assets/49d74784-3e51-4df5-966a-5d12645a4172" />
+
+The internal layout is designed around the center of gravity (CG), which is marked in the diagram.
+
+- Battery is placed at the CG to ensure stable flight
+- ESP32 is mounted near the center to reduce imbalance
+- FPV camera is placed in the nose for forward visibility
+- Video transmitter is located at the rear to separate it from control electronics
+- Antenna is routed outside the fuselage for better signal
 
 
 
