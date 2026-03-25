@@ -126,7 +126,8 @@ Wiring Overview
 
 All wiring is routed internally through the fuselage and wing root openings to keep cables protected.
 <<img width="713" height="640" alt="image" src="https://github.com/user-attachments/assets/722a9b1c-577a-4be6-8803-9ea9f919b4ed" />
-/>
+<img width="683" height="660" alt="image" src="https://github.com/user-attachments/assets/dedd1591-5f1c-44a0-b8ca-4cc5a34977cd" />
+
 
 This diagram shows the complete wiring and signal flow of the long-range FPV glider.
 The battery powers the ESC, which drives the motor and provides regulated 5V BEC
@@ -161,7 +162,10 @@ This BOM lists the planned components for the build. Some parts may be substitut
 | FPV | 5.8GHz FPV Receiver | 1 | £17.15 |[Amazon](https://www.amazon.co.uk/Misamo-Wireless-Receiver-Multicopter-Quadcopter/dp/B0CX3XCH74/ref=sr_1_7?crid=4QYONWQ07IJJ&dib=eyJ2IjoiMSJ9.m2iKmLh3twFscsNxdAX4HyVHcSHQ1JSQXnSOAhIP1xse9JjRLBAogd4KhHT0BIt0tN14nfVZr5iJi5UynLivaL3B-S8Xe9mx1nG1BC5gLVZEu3m_DYbw-h5wCmzc-HMaPUmOkyHfFVNad6sKePKtd3cOEIjGur2049O8h1BGQcQ4sMdrtcDe7J1Dua6GuVAjknAglqWcTJY0zUwZ8C-Ux-gDtZucaN6x-4IRELGc6bvhpOGjneG6K-YTN5oSyqfd4XFbs_Ot72V1kNjRJ0ydzH0zqAfw4EAUZ_6r2aW6Zqw.-jP6U4IP0VRDgy7CL2oS1gn_Jf2U6o4PTzpuYE3SrIU&dib_tag=se&keywords=RC832H+5.8GHz+48CH+FPV+Receiver&qid=1765231739&sprefix=rc832h+5.8ghz+48ch+fpv+receiver,aps,101&sr=8-7#)
 | Servos | 12g Metal Gear Servos | 2 | £12.38 |[Amazon](https://www.amazon.co.uk/Aolidsive-ES08MA-Analog-Torque-Drones/dp/B0GPWBB4S8/ref=sr_1_8?crid=1918IWLV4QRK6&dib=eyJ2IjoiMSJ9.4eiQHKDBxaEijhjU-zRrNSgYurkeMTrzWJPUYT3PeUx30QfhN1u08uppgXbNQmyt4xPeFflmWW9-gZxf1yODl5FacRH2mIpfZ7DD1Bj-MyI4pq7Yek-yiewuxzkDIw8my9qt-6YM4aH51BnnOgIQOn9yCxSPcN6DJNr0mcGfA1mhUL_hH_JVvAy7_6k_0xOIimaNpXLpBSL_23eEuGqktHNmvYSwh_DD20X9fymyAGCOYUFy5tsuaAwXET3bNesfHwTHXxmbPt0guUrEY0o-knwCPO0rS7sGzJCJqVn15j0.W76jQi67b4TiwbMJ4m9QPcK_AWeWa3e525AtDRI0oHY&dib_tag=se&keywords=HAWK%27S+WORK+EMAX+ES08MA+II+Micro+Servo%2C+12g+Metal+Geared+Analog+Servo+for+RC+Models&qid=1773957290&refinements=p_36%3A146171031&rnid=389075011&s=kids&sprefix=hawk%27s+work+emax+es08ma+ii+micro+servo+12g+metal+geared+analog+servo+for+rc+models%2Ctoys%2C290&sr=1-8)
 |Hardware | RC Airplane Control Horns 20x11mm + 1.2x21mm Clevis + Pushrod Connector + Linkage Stopper 1.3mm + 1.2x180mm Steel Z Style Pushrods | 1 set | £0.77 |[Amazon](https://www.aliexpress.com/item/1005004399398255.html?spm=a2g0o.productlist.main.4.4ced71rD71rD2P&algo_pvid=df0f6e1e-05f2-4d1a-89c5-3c5c5eb7a792&algo_exp_id=df0f6e1e-05f2-4d1a-89c5-3c5c5eb7a792-3&pdp_ext_f=%7B%22order%22%3A%22681%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%213.65%210.76%21%21%214.75%210.99%21%4021038e1e17655702414981613ebc07%2112000029040160290%21sea%21UK%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ae47e3627%3Bm03_new_user%3A-29895%3BpisId%3A5000000187461876&curPageLogUid=ndKcekkmhlmz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005004399398255%7C_p_origin_prod%3A)
-| **Total** |  |  | **£281.12** |  |
+|Hardware|Raspberry Pi 3rd Generation |1|￡3.99|[aliexpress](https://www.aliexpress.com/item/1005005871122070.html?UTABTest=aliabtest125094_24785&src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005005871122070&ds_e_product_merchant_id=776850999&ds_e_product_country=GB&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=17859500389&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=17190468917&gbraid=0AAAAADznYb_1lfexwQTarJwZBvQ_wGPdl&gclid=Cj0KCQjwj47OBhCmARIsAF5wUEE54t1vBj6H7GxlPM87eZ4aCGhRrzxUGb5fxPJamk7UD_infdsoPwYaAlWjEALw_wcB&aff_fcid=43586eb8bee94ab89e687450b311e164-1774482462466-02018-irey5Th&aff_fsk=irey5Th&aff_platform=promotion&sk=irey5Th&aff_trace_key=43586eb8bee94ab89e687450b311e164-1774482462466-02018-irey5Th&terminal_id=104e0389bed649eda5304ec4638a1262&OLP=1116833308_f_group2&o_s_id=1116833308&afSmartRedirect=n)
+|Hardware|MICRODIA XTRA microSDHC Card (32, GB)|1|5,99|[amazon](https://www.amazon.co.uk/MICRODIA-XTRA-microSDHC-Card-GB/dp/B0CQB3DBJR/ref=asc_df_B0CQB3DBJR?mcid=afa2baed503b3d9f8a00e8eed7f0cbdc&tag=googshopuk-21&linkCode=df0&hvadid=701726414045&hvpos=&hvnetw=g&hvrand=11098853756855754026&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9044975&hvtargid=pla-2355798706766&hvocijid=11098853756855754026-B0CQB3DBJR-&hvexpln=0&gad_source=1&th=1)
+
+| **Total** |  |  | **£291.10** |  |
 
 
 **Airframe Availability Update**
@@ -185,8 +189,51 @@ Alternative foam gliders can be used, but they may differ in:
 
 As a result, small adjustments to component placement (especially battery position for center of gravity) may be required when using alternative airframes.
 
-The core system design remains valid and transferable across similar glider platforms.
-Note: When using alternative airframes, adjust battery placement to maintain the correct center of gravity (CG).
+# FPV Glider with Custom Flight Control System
 
+## Overview
+This project is a custom-built FPV (First Person View) glider that introduces a redesigned control architecture. Instead of directly connecting the radio receiver to the servos, a Raspberry Pi is used as a programmable flight controller to process and manage all control signals.
+
+## Key Features
+- Custom flight controller implemented using Raspberry Pi
+- Software-based signal processing between receiver and servos
+- Fail-safe system for signal loss
+- Modular FPV video system
+- Modified airframe for improved balance and electronics integration
+
+## System Architecture
+Controller → Receiver → Raspberry Pi → Servo Outputs → Control Surfaces
+
+## Engineering Design
+Unlike traditional RC systems, this project introduces a control layer where all signals are interpreted and processed in software. This allows:
+- Custom control logic
+- Signal filtering and smoothing
+- Expandability (autonomy, stabilization, telemetry)
+
+## Hardware Components
+- Raspberry Pi (flight controller)
+- Micro SD Card (OS + software)
+- RC Receiver (PWM or UART output)
+- Servos (control surfaces)
+- ESC + Brushless motor
+- FPV camera + video transmitter
+- Battery (shared system power)
+
+## Software
+- Raspberry Pi OS Lite
+- Python-based control system
+- GPIO / PWM signal handling
+
+## Airframe Design
+The glider body is modified to:
+- Integrate onboard computing hardware
+- Maintain correct center of gravity
+- Support modular electronics mounting
+
+## Future Improvements
+- Gyroscope stabilization
+- GPS navigation
+- Autonomous flight modes
+- Telemetry system
 
 
