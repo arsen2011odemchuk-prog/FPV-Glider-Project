@@ -127,6 +127,7 @@ Wiring Overview
 All wiring is routed internally through the fuselage and wing root openings to keep cables protected.
 <<img width="713" height="640" alt="image" src="https://github.com/user-attachments/assets/722a9b1c-577a-4be6-8803-9ea9f919b4ed" />
 <img width="683" height="660" alt="image" src="https://github.com/user-attachments/assets/dedd1591-5f1c-44a0-b8ca-4cc5a34977cd" />
+<img width="841" height="335" alt="image" src="https://github.com/user-attachments/assets/ba74d30b-e2b4-4555-afe5-a29f7fa6b35a" />
 
 
 This diagram shows the complete wiring and signal flow of the long-range FPV glider.
@@ -135,6 +136,11 @@ power to the INAV F4 flight controller. The flight controller receives control i
 from the radio receiver and navigation data from the GPS module, and outputs control
 signals to the servos for stabilized flight. The FPV camera provides live video for
 monitoring during flight.
+## Design Decisions
+
+A standard flight controller (e.g. Betaflight / INAV) was not used as the primary system because it relies on prebuilt firmware.
+
+Instead, a Raspberry Pi-based controller was implemented to allow full control over signal processing and flight behavior.
 
 
 Bill of Materials (BOM)
@@ -176,16 +182,14 @@ As of **8 March 2026**, the original foam glider airframe used for this project 
 To keep the project buildable, several alternative foam gliders have been listed in this README. These alternatives are not exact matches to the original airframe and may differ in internal space and overall dimensions.
 
 Most currently available alternatives are **smaller than the original design**, which means the internal space may be tighter and some adjustments to component placement might be required depending on the specific glider used. While these alternatives are not ideal due to their smaller size, they still provide a workable platform and are currently the closest available options for building and testing the project. [amazon](https://www.amazon.co.uk/Garneck-Airplane-Throwing-Material-Activity/dp/B0DXZ3LCSC/ref=sr_1_24_sspa?dib=eyJ2IjoiMSJ9.SYmsii3TBNe-w2hhtsPWFfTldLd6M3iIKr3ncLoA18tQrSZbvDgHBmf-qTFnU7effLAE_3ndqa6ByIhVkuvyUu0oJ1drE-Kls8CzZjmL2DtwbdSoRFNjg2G8SX0v-vbIiCMcFd3JLfRbxer8iWzFNFmZC4YioeCBorVdefZEg5tswJnZ6dea8AieUjdOWbSt1SQvJWU3B4o-44cb4-PinJ_ouDLY1oWKZjC9aIOTIUKQ9nELw5s_0ofVa6Ap5NEumZvK7Bb7gLCA20etoF6EcjXKfc2YcY1_m3aKj-_wQ-s.0-lJN_P-OPF45l8S5tvpWkFV05sdlCDQjF5HS-JS-r0&dib_tag=se&keywords=giant+foam+glider+plane&qid=1773000650&sr=8-24-spons&aref=4hJXS0NEM6&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1)
-## Airframe Strategy
+## Airframe Design
 
-This project was designed and optimized for a specific 120 cm foam glider airframe.
+The base glider structure is modified to support onboard electronics:
 
-Due to availability changes, this exact model may not always be purchasable. The original airframe is therefore treated as the reference design platform.
-
-Alternative foam gliders can be used, but they may differ in:
-- internal space
-- weight distribution
-- dimensions
+- Custom mounting system for Raspberry Pi
+- Center of gravity adjusted for added weight
+- Reinforced fuselage for structural stability
+- Internal layout redesigned for wiring and airflow
 
 As a result, small adjustments to component placement (especially battery position for center of gravity) may be required when using alternative airframes.
 
@@ -235,5 +239,19 @@ The glider body is modified to:
 - GPS navigation
 - Autonomous flight modes
 - Telemetry system
+## Control Logic
 
+The Raspberry Pi reads PWM signals from the receiver and converts them into control commands.
+
+- Input: PWM signals from receiver (throttle, pitch, roll)
+- Processing:
+  - signal normalization
+  - safety limits
+  - fail-safe detection
+- Output:
+  - PWM signals sent to servos
+
+Example:
+- If signal is lost → set elevator slightly up (glide mode)
+- Limit servo movement to prevent mechanical damage
 
