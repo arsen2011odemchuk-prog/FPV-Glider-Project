@@ -254,4 +254,24 @@ The Raspberry Pi reads PWM signals from the receiver and converts them into cont
 Example:
 - If signal is lost → set elevator slightly up (glide mode)
 - Limit servo movement to prevent mechanical damage
+## Software Implementation
+
+The Raspberry Pi runs a Python-based control system that:
+
+- Reads PWM input signals from the receiver
+- Converts them into normalized control values
+- Applies safety constraints and limits
+- Outputs PWM signals to servos
+
+### Fail-Safe Logic
+If signal is lost:
+- throttle is reduced
+- elevator is set to glide position
+- control surfaces return to safe state
+
+### Expandability
+The system is designed to support:
+- IMU-based stabilization
+- autonomous flight modes
+- telemetry feedback
 
